@@ -2,6 +2,10 @@ package ru.specialist;
 
 public class Program
 {
+    void fire()
+    {
+        System.out.println("Fire!!!");
+    }
     public static void main(String[] args)
     {
         Switcher sw = new Switcher();
@@ -11,8 +15,9 @@ public class Program
         sw.addListener(lamp1);
         sw.addListener(radio1);
 
+        // лямда (использование НЕ статического метода)
+        sw.addListener( new Program()::fire );
 
-        sw.addListener( () -> System.out.println("Fire!!") );
 
         sw.switchOn();
     }
