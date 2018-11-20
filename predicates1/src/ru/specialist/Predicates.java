@@ -17,15 +17,24 @@ public class Predicates
         persons.add(new Persons("Igori", 55));
         persons.add(new Persons("Oleg", 20));
 
-        /*императивный подход
+        int summa = 0;
+        int adultPersons = 0;
         for(Persons p: persons)
-            System.out.println(p);
-        */
+        {
+            if (p.getAge() >= 18) {
+                summa += p.getAge();
+                adultPersons++;
+            }
+        }
+        double averageAge = (double)summa/adultPersons;
+        System.out.println(averageAge);
         
+
         //persons.stream().forEach(p -> System.out.println(p));
         persons.stream()
                 .filter(p -> p.getAge()>=18)
                 .sorted( (p1, p2) ->p1.getName().compareTo(p2.getName()))
+                .map(p -> p.getName()) //Преобразовавыет Объект в строки
                 .forEach(System.out::println);
     }
 }
