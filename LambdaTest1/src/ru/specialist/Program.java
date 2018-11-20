@@ -12,15 +12,7 @@ public class Program
         sw.addListener(radio1);
 
 
-        // анонимный класс исп. в версии 1.7 и более ранних
-        sw.addListener(new Electricity()
-        {
-            @Override
-            public void electricityOn()
-            {
-                System.out.println("Пожар!");
-            }
-        });
+        sw.addListener( () -> System.out.println("Fire!!") );
 
         sw.switchOn();
     }

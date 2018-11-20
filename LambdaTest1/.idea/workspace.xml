@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="054e1aee-ebe0-46fb-ada6-e96b5d99575b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LambdaTest1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LambdaTest1/ru/specialist/Electricity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LambdaTest1/ru/specialist/Lamp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LambdaTest1/ru/specialist/Program$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LambdaTest1/ru/specialist/Program.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LambdaTest1/ru/specialist/Radio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LambdaTest1/ru/specialist/Switcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/specialist/Electricity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/specialist/Lamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/specialist/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/specialist/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/specialist/Switcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/specialist/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/specialist/Program.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,12 +37,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="320" />
+          <entry key="java" value="376" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="320" />
+          <entry key="JAVA" value="376" />
         </counts>
       </usages-collector>
     </session>
@@ -67,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/specialist/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+            <state relative-caret-position="280">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -161,7 +146,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542710844406" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542711469856" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LambdaTest2/LambdaTest2" />
   </component>
   <component name="RunDashboard">
@@ -213,7 +198,7 @@
     <frame x="-4" y="-4" width="1210" height="1032" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2801724" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2801724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -222,7 +207,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32921347" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,20 +231,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../LambdaTest2/LambdaTest2/src/cay/horstman/LambdaTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/ru/specialist/Electricity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/specialist/Switcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/specialist/Radio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -274,10 +245,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/specialist/Switcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/specialist/Electricity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/specialist/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+        <state relative-caret-position="280">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
         </state>
       </provider>
     </entry>
