@@ -17,18 +17,14 @@ public class Predicates
         persons.add(new Persons("Igori", 55));
         persons.add(new Persons("Oleg", 20));
 
-        int summa = 0;
-        int adultPersons = 0;
-        for(Persons p: persons)
-        {
-            if (p.getAge() >= 18) {
-                summa += p.getAge();
-                adultPersons++;
-            }
-        }
-        double averageAge = (double)summa/adultPersons;
+
+
+        double averageAge = persons.stream()
+                .filter(p -> p.getAge() >=18)
+                .mapToInt(p -> p.getAge())
+                .average()
+                .getAsDouble();
         System.out.println(averageAge);
-        
 
         //persons.stream().forEach(p -> System.out.println(p));
         persons.stream()
