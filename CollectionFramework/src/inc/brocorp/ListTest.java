@@ -35,7 +35,8 @@ class ArrayListTest {
         System.out.println("Array List contents: " + al);
 
         Integer[] intArray = new Integer[al.size()];
-        intArray = al.toArray(intArray);
+        intArray = al.toArray(intArray);                    //получаем массив из AL
+
         int summ = 0;
         for (int i : intArray) {
             summ += i;
