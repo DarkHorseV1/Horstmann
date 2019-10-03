@@ -7,7 +7,7 @@ import java.util.TreeMap;
 
 public class MapTest {
     public static void main(String[] args) {
-        HashMap<String, Double> hm = new HashMap<>();       //Создаем ХешМап, она не гарантирует порядок объектов
+        HashMap<String, Double> hm = new HashMap<>();       //Создаем ХешМап, она НЕ гарантирует порядок объектов
         hm.put("Billie Eillish", 7500.00);
         hm.put("Tom Holland", 117500.00);
         hm.put("Nil Armstrong", 75.30);
